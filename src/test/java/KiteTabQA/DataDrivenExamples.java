@@ -65,7 +65,7 @@ public class DataDrivenExamples {
      post(" http://qa.tab.kitecash.in/kite/v1/web/employees").
      
      then().
-       statusCode(201).
+       statusCode(401).
          log().all();
      
 	
