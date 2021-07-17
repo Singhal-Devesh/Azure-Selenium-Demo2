@@ -5,7 +5,9 @@
     <classes>
       <class name="KiteTabQA.Add_Employee">
         <methods>
+          <include name="TC_03"/>
           <include name="TC_01"/>
+          <include name="TC_02"/>
         </methods>
       </class> <!-- KiteTabQA.Add_Employee -->
     </classes>
